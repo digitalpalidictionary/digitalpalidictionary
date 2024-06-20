@@ -91,6 +91,9 @@ jobs:
     - name: Add Idioms
       run: poetry run python db/families/family_idiom.py
 
+    - name: Families to JSON
+      run: poetry run python scripts/families_to_json.py
+
     - name: Deconstructor Setup
       run: poetry run python db/deconstructor/sandhi_setup.py
         
@@ -114,6 +117,12 @@ jobs:
 
     - name: Add Frequency
       run: poetry run python db/frequency/mapmaker.py
+
+    - name: Update Bold Defintions
+      run: poetry run python db/bold_definitions/update_bold_definitions_db.py
+
+    - name: Add EPD to Lookup Table
+      run: poetry run python db/epd/epd_to_lookup.py
 
     - name: Test Dealbreakers
       run: poetry run python scripts/dealbreakers.py
