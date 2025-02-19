@@ -1,1 +1,1 @@
-DPD releases have moved to https://github.com/digitalpalidictionary/dpd-db
+DPD releases have moved from here to https://github.com/digitalpalidictionary/dpd-db
