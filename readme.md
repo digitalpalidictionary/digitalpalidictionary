@@ -1,1 +1,1 @@
-Find out about installation, upgrading and features from https://digitalpalidictionary.github.io/
+DPD releases have moved to https://github.com/digitalpalidictionary/dpd-db
